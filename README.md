@@ -7,9 +7,10 @@
    ![Screenshot (6)](https://github.com/user-attachments/assets/da6285e3-5d15-4931-a31c-2329fbf04641)
 
 ## 2. Brief explanation of how the conflict was resolved
-   a. Both branches changed the same file (index.html) in different ways.
-   b. Feature branch added the styling and updated paragraph
-   c. Add-content branch updated the paragraph
-   d. When merging, Git showed a conflict because of these changes.
-   e. I opened the file and kept both the styling and the new content.
-   f. Then I saved the file, committed the changes, and completed the merge successfully.
+
+- Both branches changed the same file `index.html` in different ways.  
+- The `feature` branch added styling and updated the paragraph.  
+- The `add-content` branch updated the paragraph with different content.  
+- When merging, Git showed a conflict because both modified the same section.  
+- I opened the file and manually kept both the styling and the content changes.  
+- Then I saved the file, committed the resolved version, and completed the merge successfully.
